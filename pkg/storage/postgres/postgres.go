@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	databaseUrl string = "user=postgres password=Keks17sql dbname=articlesDB sslmode=disable" // "postgres://postgres:postgres@127.0.0.1:8081/articlesDB"
+	databaseUrl string = "postgres://postgres:postgres@127.0.0.1:8081/articlesDB"
 )
 
 type postgresDB struct {
